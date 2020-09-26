@@ -5,10 +5,11 @@ export const MainNav = [
         to: '#/dashboards/basic',
     },
 ];
+// Edit labels to componentsnav
 export const ComponentsNav = [
     {
         icon: 'pe-7s-diamond',
-        label: 'Elements',
+        label: 'Densidad',
         content: [
             {
                 label: 'Standard Buttons',

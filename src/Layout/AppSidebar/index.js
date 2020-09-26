@@ -50,9 +50,7 @@ class AppSidebar extends Component {
                     </PerfectScrollbar>
                     <div
                         className={cx("app-sidebar-bg", backgroundImageOpacity)}
-                        style={{
-                            backgroundImage: enableBackgroundImage ? 'url(' + backgroundImage + ')' : null
-                        }}>
+                        >
                     </div>
                 </ReactCSSTransitionGroup>
             </Fragment>
@@ -61,7 +59,6 @@ class AppSidebar extends Component {
 }
 
 const mapStateToProps = state => ({
-    enableBackgroundImage: state.ThemeOptions.enableBackgroundImage,
     enableSidebarShadow: state.ThemeOptions.enableSidebarShadow,
     enableMobileMenu: state.ThemeOptions.enableMobileMenu,
     backgroundColor: state.ThemeOptions.backgroundColor,
