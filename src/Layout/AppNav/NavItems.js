@@ -1,32 +1,32 @@
 export const MainNav = [
     {
-        icon: 'pe-7s-rocket',
-        label: 'Dashboard Example',
+        icon: 'pe-7s-notebook',
+        label: 'Dashboard',
         to: '#/dashboards/basic',
     },
 ];
 // Edit labels to componentsnav
 export const ComponentsNav = [
     {
-        icon: 'pe-7s-diamond',
+        icon: 'pe-7s-users',
         label: 'Densidad',
         content: [
             {
-                label: 'Standard Buttons',
+                label: 'Año',
                 to: '#/elements/buttons-standard',
             },
             {
-                label: 'Dropdowns',
+                label: 'Region',
                 to: '#/elements/dropdowns',
 
             },
             {
-                label: 'Icons',
-                to: '#/elements/icons',
+                label: 'Municipios',
+                to: '#/elements/badges-labels',
             },
             {
-                label: 'Badges',
-                to: '#/elements/badges-labels',
+                label: 'Iconos',
+                to: '#/elements/icons',
             },
             {
                 label: 'Cards',
