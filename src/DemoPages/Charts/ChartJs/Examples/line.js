@@ -1,11 +1,11 @@
 import React from 'react';
 import {Line} from 'react-chartjs-2';
 
-const data = {
+var data = {
   labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
   datasets: [
     {
-      label: 'turistas',
+      label: 'turistas en miles',
       fill: false,
       lineTension: 0.1,
       backgroundColor: '#ed0f51',
@@ -23,13 +23,37 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [65, 59, 80, 81, 56, 55, 40, 100, 110, 49, 87, 91]
+      data: [2]
     }
   ]
 };
 
 
 class LineExample extends React.Component {
+
+    componentDidMount(){
+      
+      fetch('http://d1b2de7b75f3.ngrok.io/turistas/get-llegada-turistas-from-year', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({year: "2019"})
+      }).then(response => response.json()).then(json_response => {
+        console.log(json_response.concepts[0].Categoria.Total.Meses)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Enero)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Febrero)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Marzo)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Abril)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Mayo)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Junio)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Agosto)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Septiembre)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Noviembre)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Diciembre)
+      });
+    }
 
     render() {
         return (
