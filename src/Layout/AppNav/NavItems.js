@@ -52,11 +52,12 @@ export const ComponentsNav = [
     
     
 ];
+
 export const FormsNav = [
     
-    {
+    /*{
         icon: 'pe-7s-pendrive',
-        label: 'Wea 1',
+        label: '',
         content: [
             {
                 label: 'Wecita 1',
@@ -114,10 +115,11 @@ export const FormsNav = [
             },
         ],
        
-    },
+    },*/
 ];
+
 export const WidgetsNav = [
-    {
+    /*{
         icon: 'pe-7s-pendrive',
         label: 'Wea 1',
         content: [
@@ -179,7 +181,9 @@ export const WidgetsNav = [
         ],
        
     },
+    */
 ];
+
 export const ChartsNav = [
     {
         icon: 'pe-7s-pendrive',
