@@ -11,7 +11,7 @@ const data = {
       backgroundColor: 'rgba(75,192,192,0.4)',
       borderColor: 'rgba(75,192,192,1)',
       borderCapStyle: 'round',
-      borderDash: [],
+      borderDash: [10, 15, 20],
       borderDashOffset: 0.0,
       borderJoinStyle: 'miter',
       pointBorderColor: 'rgba(75,192,192,1)',
@@ -23,7 +23,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [65, 59, 80, 81, 56, 55, 40,25,30,34,56,79]
+      data: []
     }
   ]
 };
@@ -32,19 +32,28 @@ const data = {
 class LineExample2 extends React.Component {
 
   componentDidMount(){
-    
-  fetch('http://d1b2de7b75f3.ngrok.io/turistas/get-llegada-turistas-from-year', {
-    method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({year: "2019"})
-  }).then(response => response.json()).then(json_response => {
-    console.log(json_response)
 
-  });
-}
+    fetch('http://d1b2de7b75f3.ngrok.io/turistas/get-llegada-turistas-from-year', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({year: "2019"})
+    }).then(response => response.json()).then(json_response => {
+      console.log(json_response.concepts[0].Categoria.Total.Meses)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Enero)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Febrero)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Marzo)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Abril)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Mayo)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Junio)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Agosto)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Septiembre)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Noviembre)
+      data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Diciembre)
+    });
+  }
 
     render() {
         return (
