@@ -2,10 +2,10 @@ import React from 'react';
 import {Line} from 'react-chartjs-2';
 
 const data = {
-  labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio','agosto'],
+  labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
   datasets: [
     {
-      label: 'Mia de mi',
+      label: 'Derrama economica MDP',
       fill: true,
       lineTension: 0.1,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -23,7 +23,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [65, 59, 80, 81, 56, 55, 40,25]
+      data: [65, 59, 80, 81, 56, 55, 40,25,30,34,56,79]
     }
   ]
 };

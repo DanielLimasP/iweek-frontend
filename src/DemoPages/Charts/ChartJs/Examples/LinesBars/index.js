@@ -43,7 +43,7 @@ export default class ChartJsLinesBars extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Area Chart</CardTitle>
+                                    <CardTitle>Derrama Economica Madera Arqueologia</CardTitle>
                                     <LineExample2/>
                                 </CardBody>
                             </Card>
