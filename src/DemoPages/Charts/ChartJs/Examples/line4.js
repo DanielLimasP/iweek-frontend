@@ -5,7 +5,7 @@ const data = {
   labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
   datasets: [
     {
-      label: 'Turistas por miles',
+      label: 'Derrama economica MDP',
       fill: true,
       lineTension: 0.2,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -29,7 +29,7 @@ const data = {
 };
 
 
-class LineExample2 extends React.Component {
+class LineExample4 extends React.Component {
 
   componentDidMount(){
     for(let i = 0; i <= 12; i++){
@@ -56,4 +56,4 @@ class LineExample2 extends React.Component {
     }
 }
 
-export default LineExample2;
+export default LineExample4;

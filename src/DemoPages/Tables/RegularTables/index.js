@@ -18,15 +18,11 @@ import TableSizing from './Examples/TableSizing';
 import TableStriped from './Examples/TableStriped';
 import CustomTable from './Custom/dynamicTable.js';
 
-
-
-
 const RegularTables = (props) => {
     return (
         <Fragment>
             <PageTitle
-                heading="Tables "
-                subheading="Tables are the backbone of almost all web applications."
+                heading="Tablas"
                 icon="pe-7s-drawer icon-gradient bg-happy-itmeo"
             />
             <ReactCSSTransitionGroup

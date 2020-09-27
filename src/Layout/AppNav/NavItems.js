@@ -52,22 +52,3 @@ export const ComponentsNav = [
     
     
 ];
-
-export const ChartsNav = [
-    {
-        icon: 'pe-7s-news-paper',
-        label: 'Info',
-        content: [
-            {
-                label: 'Graficos',
-                to: '#/Charts/Chartjs',
-            },
-            {
-                label: 'Tablas',
-                to: '#/tables/regular-tables',
-
-            },
-        ],
-       
-    },
-];

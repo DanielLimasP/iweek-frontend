@@ -5,7 +5,7 @@ var data = {
   labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
   datasets: [
     {
-      label: 'Turistas por miles',
+      label: 'turistas en miles',
       fill: false,
       lineTension: 0.1,
       backgroundColor: '#ed0f51',
@@ -29,7 +29,7 @@ var data = {
 };
 
 
-class LineExample extends React.Component {
+class LineExample5 extends React.Component {
 
     componentDidMount(){
       
@@ -58,4 +58,4 @@ class LineExample extends React.Component {
     }
 }
 
-export default LineExample;
+export default LineExample5;
