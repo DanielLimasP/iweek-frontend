@@ -17,24 +17,25 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-cash',
         label: 'Derrama',
-                to: '#/components/derrama',
+        to: '#/components/derrama',
     },
     {
         icon: 'pe-7s-culture',
         label: 'Establecimientos',
-                to: '#/components/establecimiento',
+        to: '#/components/establecimiento',
+                
     },
 
     {
         icon: 'pe-7s-home',
         label: 'Habitaciones',
-            to: '#/components/habitaciones',
+        to: '#/components/habitaciones',
     },
 
     {
         icon: 'pe-7s-add-user',
         label: 'Llegada de Turistas',
-            to: '#/components/turistas',
+            to: '#/components/turristas',
     },
 
     {
@@ -46,15 +47,139 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-moon',
         label: 'Turismo de Noche',
-                to: '#/components/turismoNoche',
+                to: '#/components/turrismoNoche',
     },
     
     
 ];
+export const FormsNav = [
+    
+    {
+        icon: 'pe-7s-pendrive',
+        label: 'Wea 1',
+        content: [
+            {
+                label: 'Wecita 1',
+                to: '#/elements/buttons-standard',
+            },
+            {
+                label: 'Wecita 2',
+                to: '#/elements/dropdowns',
+
+            },
+            {
+                label: 'Wecita 3',
+                to: '#/elements/icons',
+            },
+        ],
+        
+       
+    },
+    {
+        icon: 'pe-7s-pendrive',
+        label: 'Wea 2',
+        content: [
+            {
+                label: 'Wecita 1',
+                to: '#/elements/buttons-standard',
+            },
+            {
+                label: 'Wecita 2',
+                to: '#/elements/dropdowns',
+
+            },
+            {
+                label: 'Wecita 3',
+                to: '#/elements/icons',
+            },
+        ],
+       
+    },
+    {
+        icon: 'pe-7s-pendrive',
+        label: 'Wea 3',
+        content: [
+            {
+                label: 'Wecita 1',
+                to: '#/elements/buttons-standard',
+            },
+            {
+                label: 'Wecita 2',
+                to: '#/elements/dropdowns',
+
+            },
+            {
+                label: 'Wecita 3',
+                to: '#/elements/icons',
+            },
+        ],
+       
+    },
+];
+export const WidgetsNav = [
+    {
+        icon: 'pe-7s-pendrive',
+        label: 'Wea 1',
+        content: [
+            {
+                label: 'Wecita 1',
+                to: '#/elements/buttons-standard',
+            },
+            {
+                label: 'Wecita 2',
+                to: '#/elements/dropdowns',
+
+            },
+            {
+                label: 'Wecita 3',
+                to: '#/elements/icons',
+            },
+        ],
+    },
 
 
 
+    {
+        icon: 'pe-7s-pendrive',
+        label: 'Wea 2',
+        content: [
+            {
+                label: 'Wecita 1',
+                to: '#/elements/buttons-standard',
+            },
+            {
+                label: 'Wecita 2',
+                to: '#/elements/dropdowns',
 
+            },
+            {
+                label: 'Wecita 3',
+                to: '#/elements/icons',
+            },
+        ],
+       
+    },
+    {
+        icon: 'pe-7s-pendrive',
+        label: 'Wea 3',
+        content: [
+            {
+                label: 'Wecita 1',
+                to: '#/elements/buttons-standard',
+            },
+            {
+                label: 'Wecita 2',
+                to: '#/elements/dropdowns',
+
+            },
+            {
+                label: 'Wecita 3',
+                to: '#/elements/icons',
+            },
+        ],
+       
+    },
+];
 export const ChartsNav = [
     {
         icon: 'pe-7s-pendrive',
