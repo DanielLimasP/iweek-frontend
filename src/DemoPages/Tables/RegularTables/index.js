@@ -16,7 +16,7 @@ import TableHover from './Examples/TableHover';
 import TableResponsive from './Examples/TableResponsive';
 import TableSizing from './Examples/TableSizing';
 import TableStriped from './Examples/TableStriped';
-import CustomTable from '/Users/dino/Documents/GitHub/iweek-frontend/src/DemoPages/Tables/RegularTables/Custom/dynamicTable.js';
+import CustomTable from './Custom/dynamicTable.js';
 
 
 const RegularTables = (props) => {

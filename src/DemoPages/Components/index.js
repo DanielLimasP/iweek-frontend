@@ -4,6 +4,12 @@ import {Route} from 'react-router-dom';
 // COMPONENTS
 
 import DensidadMain from './Densidad/';
+import DerramaMain from './Derrama/';
+import EstablecimientosMain from './Establecimientos/';
+import HabitacionesMain from './Habitaciones/';
+import TuristasMain from './Turistas/';
+import OcupacionMain from './Ocupacion/';
+import TurismoNocheMain from './TurismoNoche/';
 
 // Layout
 
@@ -23,6 +29,12 @@ const Components = ({match}) => (
                     {/* Tabs */}
 
                     <Route path={`${match.url}/densidad`} component={DensidadMain}/>
+                    <Route path={`${match.url}/derrama`} component={DerramaMain}/>
+                    <Route path={`${match.url}/establecimientos`} component={EstablecimientosMain}/>
+                    <Route path={`${match.url}/habitaciones`} component={HabitacionesMain}/>
+                    <Route path={`${match.url}/turistas`} component={TuristasMain}/>
+                    <Route path={`${match.url}/ocupacion`} component={OcupacionMain}/>
+                    <Route path={`${match.url}/turismoNoche`} component={TurismoNocheMain}/>
 
 
                 </div>

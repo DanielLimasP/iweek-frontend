@@ -17,36 +17,36 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-cash',
         label: 'Derrama',
-                to: '#/components/tabs',
+                to: '#/components/derrama',
     },
     {
         icon: 'pe-7s-culture',
         label: 'Establecimientos',
-                to: '#/components/modals',
+                to: '#/components/establecimiento',
     },
 
     {
         icon: 'pe-7s-home',
         label: 'Habitaciones',
-            to: '#/components/modals',
+            to: '#/components/habitaciones',
     },
 
     {
         icon: 'pe-7s-add-user',
         label: 'Llegada de Turistas',
-            to: '#/components/modals',
+            to: '#/components/turistas',
     },
 
     {
         icon: 'pe-7s-portfolio',
         label: 'Ocupación',
-            to: '#/components/modals',
+            to: '#/components/ocupacion',
     },
 
     {
         icon: 'pe-7s-moon',
         label: 'Turismo de Noche',
-                to: '#/components/modals',
+                to: '#/components/turismoNoche',
     },
     
     
