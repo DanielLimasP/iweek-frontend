@@ -35,7 +35,7 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-add-user',
         label: 'Llegada de Turistas',
-            to: '#/components/turristas',
+            to: '#/components/turistas',
     },
 
     {
@@ -47,7 +47,7 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-moon',
         label: 'Turismo de Noche',
-                to: '#/components/turrismoNoche',
+                to: '#/components/turismoNoche',
     },
     
     
