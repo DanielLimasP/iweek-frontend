@@ -229,7 +229,7 @@ export const ChartsNav = [
             },
             {
                 label: 'Wecita 2',
-                to: '#/elements/dropdowns',
+                to: '#/tables/regular-tables',
 
             },
             {
