@@ -102,6 +102,7 @@ export default class AdvacedReport extends React.Component {
                                                                     <option>2 Estrellas</option>
                                                                     <option>1 Estrellas</option>
                                                         </CustomInput>
+                                                        <Button className="mb-2 mr-2" color="success">Crear</Button>
                                                     </FormGroup>
                                                 </Col>
                                             </Row>
