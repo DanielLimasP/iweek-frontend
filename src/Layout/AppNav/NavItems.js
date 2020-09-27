@@ -10,135 +10,42 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-users',
         label: 'Densidad',
-        content: [
-            {
-                label: 'Año',
                 to: '#/components/tabs',
-            },
-            {
-                label: 'Region',
-                to: '#/components/notifications',
-            },
-            {
-                label: 'Municipios',
-                to: '#/components/modals',
-            },
-
-        ],
+            
     },
     {
         icon: 'pe-7s-cash',
         label: 'Derrama',
-        content: [
-            {
-                label: 'Año',
                 to: '#/components/tabs',
-            },
-            {
-                label: 'Region',
-                to: '#/components/notifications',
-            },
-            {
-                label: 'Municipios',
-                to: '#/components/modals',
-            },
-        ],
     },
     {
         icon: 'pe-7s-culture',
         label: 'Establecimientos',
-        content: [
-            {
-                label: 'Año',
-                to: '#/components/tabs',
-            },
-            {
-                label: 'Region',
-                to: '#/components/notifications',
-            },
-            {
-                label: 'Municipios',
                 to: '#/components/modals',
-            },
-        ],
     },
 
     {
         icon: 'pe-7s-home',
         label: 'Habitaciones',
-        content: [
-            {
-                label: 'Año',
-                to: '#/components/tabs',
-            },
-            {
-                label: 'Region',
-                to: '#/components/notifications',
-            },
-            {
-                label: 'Municipios',
-                to: '#/components/modals',
-            },
-        ],
+            to: '#/components/modals',
     },
 
     {
         icon: 'pe-7s-add-user',
         label: 'Llegada Turisticas',
-        content: [
-            {
-                label: 'Año',
-                to: '#/components/tabs',
-            },
-            {
-                label: 'Region',
-                to: '#/components/notifications',
-            },
-            {
-                label: 'Municipios',
-                to: '#/components/modals',
-            },
-        ],
+            to: '#/components/modals',
     },
 
     {
         icon: 'pe-7s-portfolio',
         label: 'Ocupación',
-        content: [
-            {
-                label: 'Año',
-                to: '#/components/tabs',
-            },
-            {
-                label: 'Region',
-                to: '#/components/notifications',
-            },
-            {
-                label: 'Municipios',
-                to: '#/components/modals',
-            },
-        ],
+            to: '#/components/modals',
     },
 
     {
         icon: 'pe-7s-moon',
         label: 'Turismo de Noche',
-        content: [
-            {
-                label: 'Año',
-                to: '#/elements/buttons-standard',
-            },
-            {
-                label: 'Region',
-                to: '#/elements/dropdowns',
-
-            },
-            {
-                label: 'Municipios',
                 to: '#/elements/icons',
-            },
-        ],
-       
     },
     
     
