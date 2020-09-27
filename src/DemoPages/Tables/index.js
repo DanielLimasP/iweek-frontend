@@ -4,6 +4,11 @@ import {Route} from 'react-router-dom';
 // Tables
 
 import RegularTables from './RegularTables';
+import RegularTables2 from './RegularTables2';
+import RegularTables3 from './RegularTables3';
+import RegularTables4 from './RegularTables4';
+import RegularTables5 from './RegularTables5';
+import RegularTables6 from './RegularTables6';
 
 // Layout
 
@@ -22,6 +27,11 @@ const Tables = ({match}) => (
                     {/* Tables */}
 
                     <Route path={`${match.url}/regular-tables`} component={RegularTables}/>
+                    <Route path={`${match.url}/regular-tables-2`} component={RegularTables2}/>
+                    <Route path={`${match.url}/regular-tables-3`} component={RegularTables3}/>
+                    <Route path={`${match.url}/regular-tables-4`} component={RegularTables4}/>
+                    <Route path={`${match.url}/regular-tables-5`} component={RegularTables5}/>
+                    <Route path={`${match.url}/regular-tables-6`} component={RegularTables6}/>
                 </div>
                 <AppFooter/>
             </div>

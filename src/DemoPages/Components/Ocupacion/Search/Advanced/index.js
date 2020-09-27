@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import classnames from 'classnames';
+import { Link } from 'react-router-dom';
 
 import {
     TabContent, TabPane, Nav, NavItem, NavLink,
@@ -102,7 +103,9 @@ export default class AdvacedReport extends React.Component {
                                                                     <option>2 Estrellas</option>
                                                                     <option>1 Estrellas</option>
                                                         </CustomInput>
-                                                        <Button className="mb-2 mr-2" color="success">Crear</Button>
+                                                        <Button className="mb-2 mr-2" color="success">
+                                                        <Link to="/tables/regular-tables-5">Click</Link>
+                                                        </Button>
                                                     </FormGroup>
                                                 </Col>
                                             </Row>

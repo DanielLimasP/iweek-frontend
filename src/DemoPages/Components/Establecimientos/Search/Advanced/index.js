@@ -105,7 +105,7 @@ export default class AdvacedReport extends React.Component {
                                                                     <option>1 Estrellas</option>
                                                         </CustomInput>
                                                         <Button className="mb-2 mr-2" color="success">
-                                                        <Link to="/tables/regular-tables">Click</Link>
+                                                        <Link to="/tables/regular-tables-2">Click</Link>
                                                         </Button>
                                                         
                                                     </FormGroup>

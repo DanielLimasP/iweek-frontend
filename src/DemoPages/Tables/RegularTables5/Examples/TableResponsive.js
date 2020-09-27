@@ -1,7 +1,6 @@
 import React from 'react';
 import { Table } from 'reactstrap';
 
-
 const Example = (props) => {
   return (
     <Table responsive>

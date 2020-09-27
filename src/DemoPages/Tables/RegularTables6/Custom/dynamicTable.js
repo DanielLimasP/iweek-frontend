@@ -6,73 +6,73 @@ const CustomTable = () => {
       _id: "5f6f09c956561ab1be787afb",
      
       Region: "Enero",
-      Establecimientos: "9,417237102",
+      Establecimientos: "13318",
     },
     {
       _id: "5f6f09c956561ab1be787afe",
     
       Region: "Febrero",
-      Establecimientos: "6,849555615",
+      Establecimientos: "13867",
     },
     {
       _id: "5f6f09c956561ab1be787b01",
 
       Region: "Marzo",
-      Establecimientos: "9,61328507",
+      Establecimientos: "11406",
     },
     {
       _id: "5f6f09c956561ab1be787b04",
 
       Region: "Abril",
-      Establecimientos: "11,26597094",
+      Establecimientos: "3328",
     },
     {
       _id: "5f6f09c956561ab1be787b07",
 
       Region: "Mayo",
-      Establecimientos: "9,420759741",
+      Establecimientos: "9523",
     },
     {
       _id: "5f6f09c956561ab1be787b0a",
 
       Region: "Junio",
-      Establecimientos: "8,618462012",
+      Establecimientos: "4968",
     },
     {
       _id: "5f6f09c956561ab1be787b0d",
 
       Region: "Julio",
-      Establecimientos: "12,92315388",
+      Establecimientos: "9276",
     },
     {
       _id: "5f6f09c956561ab1be787b10",
 
       Region: "Agosto",
-      Establecimientos: "10,0960681",
+      Establecimientos: "8318",
     },
     {
       _id: "5f6f09c956561ab1be787b13",
 
       Region: "Septiembre",
-      Establecimientos: "10,62165475",
+      Establecimientos: "0",
     },
     {
       _id: "5f6f09c956561ab1be787b16",
 
       Region: "Octubre",
-      Establecimientos: "12,95085754",
+      Establecimientos: "0",
     },
     {
       _id: "5f6f09c956561ab1be787b19",
  
       Region: "Noviembre",
-      Establecimientos: "12,95085754",
+      Establecimientos: "0",
     },
     {
       _id: "5f6f09c956561ab1be787b1c",
 
       Region: "Diciembre",
-      Establecimientos: "8,110058506"
+      Establecimientos: "0"
     },
     
     
@@ -94,7 +94,7 @@ const CustomTable = () => {
           <tr>
           
             <th>Mes</th>
-            <th>MDP</th>
+            <th>Turistas</th>
             
           </tr>
         </thead>

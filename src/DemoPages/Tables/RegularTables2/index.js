@@ -40,7 +40,7 @@ const RegularTables = (props) => {
                     <Col lg="12">
                         <Card className="main-card mb-3">
                             <CardBody>
-                                <CardTitle>Derrama Económica - Nuevo Casas Grandes - Arqueologica - 2019</CardTitle>
+                                <CardTitle>Establecimientos - Nuevo Casas Grandes - Arqueologica - 2019</CardTitle>
                                 <CustomTable></CustomTable>
                                 
                             </CardBody>
