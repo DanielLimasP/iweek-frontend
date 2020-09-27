@@ -9,7 +9,7 @@ import {
     Button, ButtonGroup
 } from 'reactstrap';
 
-export default class basicReport extends React.Component {
+export default class BasicReport extends React.Component {
     constructor(props) {
         super(props);
 

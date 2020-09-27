@@ -5,17 +5,17 @@ import Tabs from 'react-responsive-tabs';
 import PageTitle from '../../../Layout/AppMain/PageTitle';
 
 // Examples
-import advancedReport from './Search/Advanced';
-import basicReport from './Search/Basic';
+import AdvancedReport from './Search/Advanced';
+import BasicReport from './Search/Basic';
 
 const tabsContent = [
     {
         title: 'Creacion avanzada',
-        content: <advancedReport/>
+        content: <AdvancedReport/>
     },
     {
         title: 'Creacion basica',
-        content: <basicReport/>
+        content: <BasicReport/>
     },
 ];
 

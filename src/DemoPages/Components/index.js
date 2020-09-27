@@ -3,7 +3,7 @@ import {Route} from 'react-router-dom';
 
 // COMPONENTS
 
-import TabExample from './Tabs/';
+import DensidadMain from './Densidad/';
 
 // Layout
 
@@ -22,7 +22,7 @@ const Components = ({match}) => (
 
                     {/* Tabs */}
 
-                    <Route path={`${match.url}/densidad`} component={TabExample}/>
+                    <Route path={`${match.url}/densidad`} component={DensidadMain}/>
 
 
                 </div>
