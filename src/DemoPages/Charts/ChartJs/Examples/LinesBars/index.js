@@ -27,7 +27,7 @@ export default class ChartJsLinesBars extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Line Chart</CardTitle>
+                                    <CardTitle>Llegada de Turistas 2020. Barrancas del cobre.</CardTitle>
                                     <LineExample/>
                                 </CardBody>
                             </Card>
