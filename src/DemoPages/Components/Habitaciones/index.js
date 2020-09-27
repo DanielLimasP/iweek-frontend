@@ -27,7 +27,7 @@ function getTabs() {
     }));
 }
 
-export default class DensidadMain extends React.Component {
+export default class Habitaciones extends React.Component {
 
     render() {
 
