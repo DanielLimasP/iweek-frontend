@@ -10,11 +10,11 @@ import ChartJsLinesBars from './Examples/LinesBars';
 
 const tabsContent = [
     {
-        title: 'Circular Charts',
+        title: 'Establecimientos',
         content: <ChartJsCircular/>
     },
     {
-        title: 'Lines & Bars Charts',
+        title: 'Llegada de turistas',
         content: <ChartJsLinesBars/>
     },
 ];
@@ -33,9 +33,8 @@ export default class ChartJSExamples extends Component {
         return (
             <Fragment>
                 <PageTitle
-                    heading="ChartJS"
-                    subheading="Huge selection of charts created with the React ChartJS Plugin"
-                    icon="pe-7s-bandaid icon-gradient bg-amy-crisp"
+                    heading="Resultado de la busqueda"
+                    icon="pe-7s-search icon-gradient bg-amy-crisp"
                 />
                 <Tabs tabsWrapperClass="body-tabs body-tabs-layout" transform={false} showInkBar={true} items={getTabs()}/>
             </Fragment>

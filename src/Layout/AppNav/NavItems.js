@@ -5,6 +5,7 @@ export const MainNav = [
         to: '#/dashboards/basic',
     },
 ];
+
 // Edit labels to componentsnav
 export const ComponentsNav = [
     {
@@ -32,7 +33,7 @@ export const ComponentsNav = [
 
     {
         icon: 'pe-7s-add-user',
-        label: 'Llegada Turisticas',
+        label: 'Llegada de Turistas',
             to: '#/components/modals',
     },
 
@@ -224,9 +225,14 @@ export const ChartsNav = [
         label: 'Amed',
         content: [
             {
-                label: 'Wecita 1',
+                label: 'Charts',
                 to: '#/Charts/Chartjs',
-            }
+            },
+            {
+                label: 'Tables',
+                to: '#/tables/regular-tables',
+
+            },
         ],
        
     },
