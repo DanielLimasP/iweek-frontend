@@ -22,7 +22,7 @@ const RegularTables = (props) => {
     return (
         <Fragment>
             <PageTitle
-                heading="Regular Tables"
+                heading="Tables "
                 subheading="Tables are the backbone of almost all web applications."
                 icon="pe-7s-drawer icon-gradient bg-happy-itmeo"
             />
