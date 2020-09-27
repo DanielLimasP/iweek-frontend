@@ -31,6 +31,21 @@ const data = {
 
 class LineExample2 extends React.Component {
 
+  componentDidMount(){
+    
+  fetch('http://d1b2de7b75f3.ngrok.io/turistas/get-llegada-turistas-from-year', {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({year: "2019"})
+  }).then(response => response.json()).then(json_response => {
+    console.log(json_response)
+
+  });
+}
+
     render() {
         return (
             <div>
