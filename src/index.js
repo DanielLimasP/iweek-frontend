@@ -8,6 +8,7 @@ import './assets/base.css';
 import Main from './DemoPages/Main';
 import configureStore from './config/configureStore';
 import { Provider } from 'react-redux';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const store = configureStore();
 const rootElement = document.getElementById('root');

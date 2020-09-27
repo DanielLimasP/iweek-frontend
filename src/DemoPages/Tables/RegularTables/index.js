@@ -16,6 +16,7 @@ import TableHover from './Examples/TableHover';
 import TableResponsive from './Examples/TableResponsive';
 import TableSizing from './Examples/TableSizing';
 import TableStriped from './Examples/TableStriped';
+import CustomTable from '/Users/dino/Documents/GitHub/iweek-frontend/src/DemoPages/Tables/RegularTables/Custom/dynamicTable.js';
 
 
 const RegularTables = (props) => {
@@ -34,70 +35,15 @@ const RegularTables = (props) => {
                 transitionEnter={false}
                 transitionLeave={false}>
                 <Row>
-                    <Col lg="6">
+                    <Col lg="12">
                         <Card className="main-card mb-3">
                             <CardBody>
                                 <CardTitle>Simple table</CardTitle>
-                                <TableExample/>
+                                <CustomTable></CustomTable>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col lg="6">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <CardTitle>Table bordered</CardTitle>
-                                <TableBordered/>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg="6">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <CardTitle>Table without border</CardTitle>
-                                <TableBorderless/>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg="6">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <CardTitle>Table dark</CardTitle>
-                                <TableDark/>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg="6">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <CardTitle>Table with hover</CardTitle>
-                                <TableHover/>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg="6">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <CardTitle>Table responsive</CardTitle>
-                                <TableResponsive/>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg="6">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <CardTitle>Table sizing</CardTitle>
-                                <TableSizing/>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg="6">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <CardTitle>Table striped</CardTitle>
-                                <TableStriped/>
-                            </CardBody>
-                        </Card>
-                    </Col>
+                   
                 </Row>
             </ReactCSSTransitionGroup>
         </Fragment>
