@@ -27,7 +27,7 @@ function getTabs() {
     }));
 }
 
-export default class DensidadMain extends React.Component {
+export default class TurismoMain extends React.Component {
 
     render() {
 
