@@ -1,7 +1,7 @@
 export const MainNav = [
     {
         icon: 'pe-7s-notebook',
-        label: 'Dashboard',
+        label: 'Inicio',
         to: '#/dashboards/basic',
     },
 ];
