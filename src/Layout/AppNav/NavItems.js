@@ -46,7 +46,7 @@ export const ComponentsNav = [
 
     {
         icon: 'pe-7s-moon',
-        label: 'Turismo de Noche',
+        label: 'Turistas noche',
                 to: '#/components/turismoNoche',
     },
     
