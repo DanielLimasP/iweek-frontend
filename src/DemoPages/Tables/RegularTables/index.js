@@ -17,7 +17,7 @@ import TableResponsive from './Examples/TableResponsive';
 import TableSizing from './Examples/TableSizing';
 import TableStriped from './Examples/TableStriped';
 import CustomTable from './Custom/dynamicTable.js';
-import GenerateJSON from './Custom/generateJSON';
+
 
 
 
@@ -40,9 +40,9 @@ const RegularTables = (props) => {
                     <Col lg="12">
                         <Card className="main-card mb-3">
                             <CardBody>
-                                <CardTitle>Simple table</CardTitle>
+                                <CardTitle>Establecimientos 2019</CardTitle>
                                 <CustomTable></CustomTable>
-                                <GenerateJSON></GenerateJSON>
+                                
                             </CardBody>
                         </Card>
                     </Col>
