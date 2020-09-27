@@ -4,23 +4,17 @@ import classnames from 'classnames';
 
 import {
     TabContent, TabPane, Nav, NavItem, NavLink,
-    Row, Col,
-    Card, CardBody, CardHeader,
-    CardTitle, Button, ButtonGroup
+    Row, Col, CardHeader, CardFooter,
+    Card, CardBody,
+    Button, ButtonGroup
 } from 'reactstrap';
 
-import {
-    faCommentDots,
-    faBullhorn,
-} from '@fortawesome/free-solid-svg-icons';
-
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
-export default class TabsExample extends React.Component {
+export default class basicReport extends React.Component {
     constructor(props) {
         super(props);
 
         this.toggle = this.toggle.bind(this);
+
         this.state = {
             activeTab: '1',
         };
@@ -45,9 +39,20 @@ export default class TabsExample extends React.Component {
                     transitionAppearTimeout={0}
                     transitionEnter={false}
                     transitionLeave={false}>
-                    <Row>
-                        
-                    </Row>
+                    <div>
+                        <Row>
+                            <Col md="12">
+                                <Card className="main-card mb-12">
+                                    <CardHeader>
+                                        <h3>Parametros</h3>
+                                    </CardHeader>
+                                    <CardBody>
+                                        <p>Selecciona los parametros necesarios para crear tu reporte</p>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </div>
                 </ReactCSSTransitionGroup>
             </Fragment>
         );

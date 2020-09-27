@@ -17,11 +17,11 @@ var data = {
       pointBorderColor: '#ed0f51',
       pointBackgroundColor: '#ffffff',
       pointBorderWidth: 2,
-      pointHoverRadius: 10,
+      pointHoverRadius: 20,
       pointHoverBackgroundColor: '#ed0f51',
       pointHoverBorderColor: '#ed0f51',
       pointHoverBorderWidth: 2,
-      pointRadius: 1,
+      pointRadius: 5,
       pointHitRadius: 10,
       data: []
     }

@@ -11,7 +11,7 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-users',
         label: 'Densidad',
-                to: '#/components/tabs',
+                to: '#/components/densidad',
             
     },
     {

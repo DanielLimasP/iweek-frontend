@@ -5,17 +5,17 @@ import Tabs from 'react-responsive-tabs';
 import PageTitle from '../../../Layout/AppMain/PageTitle';
 
 // Examples
-import TabsExample from './Examples/Basic';
-import CardTabsExample from './Examples/CardTabs';
+import advancedReport from './Search/Advanced';
+import basicReport from './Search/Basic';
 
 const tabsContent = [
     {
         title: 'Creacion avanzada',
-        content: <CardTabsExample/>
+        content: <advancedReport/>
     },
     {
         title: 'Creacion basica',
-        content: <TabsExample/>
+        content: <basicReport/>
     },
 ];
 
@@ -27,7 +27,7 @@ function getTabs() {
     }));
 }
 
-export default class TabExample extends React.Component {
+export default class DensidadMain extends React.Component {
 
     render() {
 
