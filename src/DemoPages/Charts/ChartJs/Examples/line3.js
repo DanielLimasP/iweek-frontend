@@ -29,7 +29,7 @@ const data = {
 };
 
 
-class LineExample2 extends React.Component {
+class LineExample3 extends React.Component {
 
   componentDidMount(){
     for(let i = 0; i <= 12; i++){
@@ -56,4 +56,4 @@ class LineExample2 extends React.Component {
     }
 }
 
-export default LineExample2;
+export default LineExample3;

@@ -29,7 +29,7 @@ var data = {
 };
 
 
-class LineExample extends React.Component {
+class LineExample6 extends React.Component {
 
     componentDidMount(){
       
@@ -58,4 +58,4 @@ class LineExample extends React.Component {
     }
 }
 
-export default LineExample;
+export default LineExample6;

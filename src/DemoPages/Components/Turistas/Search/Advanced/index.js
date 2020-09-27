@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import classnames from 'classnames';
-
+import { Link } from 'react-router-dom';
 import {
     TabContent, TabPane, Nav, NavItem, NavLink,
     Row, Col, CardHeader, CardFooter,
@@ -102,7 +102,9 @@ export default class AdvacedReport extends React.Component {
                                                                     <option>2 Estrellas</option>
                                                                     <option>1 Estrellas</option>
                                                         </CustomInput>
-                                                        <Button className="mb-2 mr-2" color="success">Crear</Button>
+                                                        <Button className="mb-2 mr-2" color="success">
+                                                            <Link to="/Charts/ChartJs">Crear</Link>
+                                                        </Button>
                                                     </FormGroup>
                                                 </Col>
                                             </Row>

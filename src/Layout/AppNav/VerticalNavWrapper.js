@@ -3,7 +3,7 @@ import {withRouter} from 'react-router-dom';
 
 import MetisMenu from 'react-metismenu';
 
-import {MainNav, ComponentsNav, ChartsNav} from './NavItems';
+import {MainNav, ComponentsNav} from './NavItems';
 
 class Nav extends Component {
 
@@ -16,8 +16,6 @@ class Nav extends Component {
                 <MetisMenu content={MainNav} activeLinkFromLocation className="vertical-nav-menu" iconNamePrefix="" classNameStateIcon="pe-7s-angle-down"/>
                 <h5 className="app-sidebar__heading">Indicadores de turismo</h5>
                 <MetisMenu content={ComponentsNav} activeLinkFromLocation className="vertical-nav-menu" iconNamePrefix="" classNameStateIcon="pe-7s-angle-down"/>
-                <h5 className="app-sidebar__heading">Graficos y tablas</h5>
-                <MetisMenu content={ChartsNav} activeLinkFromLocation className="vertical-nav-menu" iconNamePrefix="" classNameStateIcon="pe-7s-angle-down"/>
             </Fragment>
         );
     }
