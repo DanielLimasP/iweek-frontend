@@ -2,10 +2,10 @@ import React from 'react';
 import {Line} from 'react-chartjs-2';
 
 const data = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'turistas',
       fill: false,
       lineTension: 0.1,
       backgroundColor: '#ed0f51',
@@ -23,7 +23,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [65, 59, 80, 81, 56, 55, 40]
+      data: [65, 59, 80, 81, 56, 55, 40, 100, 110, 49, 87, 91]
     }
   ]
 };
