@@ -41,15 +41,16 @@ class LineExample extends React.Component {
       },
       body: JSON.stringify({year: "2019"})
       }).then(response => response.json()).then(json_response => {
-        console.log(json_response.concepts[0].Categoria.Total.Meses)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Enero)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Febrero)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Marzo)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Abril)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Mayo)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Junio)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Julio)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Agosto)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Septiembre)
+        data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Octubre)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Noviembre)
         data.datasets[0].data.push(json_response.concepts[0].Categoria.Total.Meses.Diciembre)
       });

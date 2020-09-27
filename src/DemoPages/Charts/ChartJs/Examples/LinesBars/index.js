@@ -35,32 +35,8 @@ export default class ChartJsLinesBars extends React.Component {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>Animated Line Chart</CardTitle>
-                                    <MixExample/>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col lg="6">
-                            <Card className="main-card mb-3">
-                                <CardBody>
                                     <CardTitle>Madera: Arqueologia 2020</CardTitle>
                                     <LineExample2/>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col lg="6">
-                            <Card className="main-card mb-3">
-                                <CardBody>
-                                    <CardTitle>Bar Chart</CardTitle>
-                                    <BarExample/>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col lg="6">
-                            <Card className="main-card mb-3">
-                                <CardBody>
-                                    <CardTitle>Horizontal Bar Chart</CardTitle>
-                                    <HorizontalBarExample/>
                                 </CardBody>
                             </Card>
                         </Col>
