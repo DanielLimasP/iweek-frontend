@@ -27,7 +27,7 @@ function getTabs() {
     }));
 }
 
-export default class Habitaciones extends React.Component {
+export default class HabitacionesMain extends React.Component {
 
     render() {
 
