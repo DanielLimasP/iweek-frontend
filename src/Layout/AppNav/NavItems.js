@@ -22,7 +22,7 @@ export const ComponentsNav = [
     {
         icon: 'pe-7s-culture',
         label: 'Establecimientos',
-        to: '#/components/establecimiento',
+        to: '#/components/establecimientos',
                 
     },
 
