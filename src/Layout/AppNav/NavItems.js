@@ -225,7 +225,7 @@ export const ChartsNav = [
         content: [
             {
                 label: 'Wecita 1',
-                to: '#/elements/buttons-standard',
+                to: '#/Charts/Chartjs',
             },
             {
                 label: 'Wecita 2',

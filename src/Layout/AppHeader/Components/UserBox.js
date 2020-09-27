@@ -20,8 +20,6 @@ import {
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import avatar1 from '../../../assets/utils/images/avatars/1.jpg';
-
 class UserBox extends React.Component {
     constructor(props) {
         super(props);
@@ -64,7 +62,7 @@ class UserBox extends React.Component {
                                     <FontAwesomeIcon className="mr-2 ml-2" icon={faCalendarAlt}/>
                                 </Button>
                                 <UncontrolledTooltip placement="bottom" target={'Tooltip-1'}>
-                                    Click for Toastify Notifications!
+                                    Ayuda
                                 </UncontrolledTooltip>
                             </div>
                         </div>
