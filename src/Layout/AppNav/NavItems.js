@@ -221,21 +221,12 @@ export const ChartsNav = [
     },
     {
         icon: 'pe-7s-pendrive',
-        label: 'Wea 3',
+        label: 'Amed',
         content: [
             {
                 label: 'Wecita 1',
                 to: '#/Charts/Chartjs',
-            },
-            {
-                label: 'Wecita 2',
-                to: '#/tables/regular-tables',
-
-            },
-            {
-                label: 'Wecita 3',
-                to: '#/elements/icons',
-            },
+            }
         ],
        
     },
